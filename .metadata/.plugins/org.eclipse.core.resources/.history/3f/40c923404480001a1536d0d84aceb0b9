@@ -1,0 +1,21 @@
+package webDriver.studyGroup;
+
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebDriver;
+
+public class HomePage extends BasePAge{
+
+	public HomePage(WebDriver driver) {
+		super(driver);
+		// TODO Auto-generated constructor stub
+	}
+
+	public void navigateMyStore() {
+		super.navigateMyStore();
+	}
+	
+	
+	public void clickLogIn() {
+		driver.findElement(By.className("login")).click();				
+	}
+}

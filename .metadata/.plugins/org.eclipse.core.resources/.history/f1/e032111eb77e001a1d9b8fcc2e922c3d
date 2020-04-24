@@ -1,0 +1,11 @@
+package webDriver.studyGroup;
+
+public class BasePAge {
+	public WebDriver driver;
+
+	public BasePage(WebDriver driver)
+	{
+		 this.driver = driver;
+	}
+	
+}

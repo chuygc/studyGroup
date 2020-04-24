@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-04-16T20:31:49 CDT" name="Default suite" finished-at="2020-04-16T20:32:04 CDT" duration-ms="15571">
+    <groups>
+    </groups>
+    <test started-at="2020-04-16T20:31:49 CDT" name="Default test" finished-at="2020-04-16T20:32:04 CDT" duration-ms="15571">
+      <class name="webDriver.studyGroup.tests">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:webDriver.studyGroup.tests@33afa13b]" started-at="2020-04-16T20:31:49 CDT" name="beforeClass" finished-at="2020-04-16T20:32:00 CDT" duration-ms="10957" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method is-config="true" signature="initPages()[pri:0, instance:webDriver.studyGroup.tests@33afa13b]" started-at="2020-04-16T20:32:00 CDT" name="initPages" finished-at="2020-04-16T20:32:00 CDT" duration-ms="28" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPages -->
+        <test-method signature="test1()[pri:0, instance:webDriver.studyGroup.tests@33afa13b]" started-at="2020-04-16T20:32:00 CDT" name="test1" finished-at="2020-04-16T20:32:04 CDT" duration-ms="4531" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- test1 -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:webDriver.studyGroup.tests@33afa13b]" started-at="2020-04-16T20:32:04 CDT" name="teardown" finished-at="2020-04-16T20:32:04 CDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- webDriver.studyGroup.tests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

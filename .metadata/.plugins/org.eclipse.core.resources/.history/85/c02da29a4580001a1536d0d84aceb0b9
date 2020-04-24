@@ -1,0 +1,15 @@
+package webDriver.studyGroup;
+
+import org.openqa.selenium.WebDriver;
+
+public class BasePAge {
+	public WebDriver driver;
+
+	public  BasePAge(WebDriver driver)	{
+		 this.driver = driver;
+	}
+	
+	public void navigateMyStore() {
+		driver.get("http://automationpractice.com/index.php");
+	}
+}

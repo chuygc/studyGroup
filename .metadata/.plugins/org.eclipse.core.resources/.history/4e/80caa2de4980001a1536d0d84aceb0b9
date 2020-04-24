@@ -1,0 +1,22 @@
+package webDriver.studyGroup;
+import org.testng.annotations.Test;
+
+
+
+public class tests extends TestBase{
+	HomePage homepage;
+	AuthPage authpage;
+	@Test
+	public void test1() {		
+		homepage.open().clickLogIn();		
+		authpage.setEmail("test@test.com");
+	}
+	
+	@BeforeMethod
+	public void initPages() {
+		homepage = new HomePage(driver);
+		authpage = new AuthPage(driver);
+	}
+
+	
+}
